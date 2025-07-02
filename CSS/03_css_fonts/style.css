@@ -1,0 +1,51 @@
+
+
+i{
+    font-size: 40px
+}
+
+.para1{
+    font-family: "Pinyon Script", cursive;;
+    font-size: 40px;
+}
+
+.para2{
+     font-family: "Rubik Gemstones", system-ui;
+    font-size: 40px;
+}
+
+.para3{
+      font-family: "Honk", system-ui;
+    font-size: 40px;
+}
+
+.para4{
+ font-family: "Agbalumo", system-ui;
+    font-size: 40px;
+}
+
+
+.box{
+    background-color: gainsboro;
+    width: 400px;
+
+    margin-top:10px;
+    margin-right:20px;
+    margin-bottom:30px;
+    margin-left: 50px;
+
+    /* margin:10px 20px 30px 50px */
+
+    /* padding: 20px; */
+
+    padding: 10px 20px 30px 40px;
+
+
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: fuchsia; */
+
+    border:10px groove green;
+
+    border-radius: 50px;
+}
