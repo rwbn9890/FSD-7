@@ -1,0 +1,94 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    border: 1px solid gray;
+    margin: 20px;
+}
+
+.box1{
+    background-image: linear-gradient(to left, orange,white, green);
+}
+
+.box2{
+    background-image: linear-gradient(125deg, orange,white, green);
+}
+
+.para{
+    font-family: monospace;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.box3{
+    width: 400px;
+    background-image: radial-gradient( circle, orange, white, green);
+}
+
+.box4{
+    border-radius: 50%;
+    background-image: conic-gradient(  orange, white, green, orange);
+}
+
+.box5{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/040/890/255/small_2x/ai-generated-empty-wooden-table-on-the-natural-background-for-product-display-free-photo.jpg");
+
+    /* background-size:cover; */
+    /* background-repeat:  no-repeat; */
+
+    background-position: center;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    
+    background-attachment: fixed;
+
+
+}
+
+.bg1{
+    background-image: url('https://assets.weforum.org/article/image/0ZUBmNNVLRCfn3NdU55nQ00UF64m2ObtcDS0grx02fA.jpg');
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+.bg2{
+    background: url('https://www.hdwallpapers.in/download/road_path_grass_field_clouds_sky_forest_nature_landscape_wallpaper_background_4k_hd_nature-HD.jpg'), rgba(0, 0, 0, 0.596);
+     background-size: cover;
+    background-position: center;
+}
+
+.bg3{
+    background: url('https://plus.unsplash.com/premium_photo-1697762690198-ccb999d0b218?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmV3JTIwZW5nbGFuZHxlbnwwfHwwfHx8MA%3D%3D'), rgba(0, 0, 0, 0.596);
+     background-size: cover;
+    background-position: center;
+}
+
+.bg4{
+    background: url('https://images.squarespace-cdn.com/content/v1/5d777de8109c315fd22faf3a/1693407136044-G90XQURX1GABMYGAS8K1/shutterstock_1288634614.jpg?format=2500w'), rgba(0, 0, 0, 0.596);
+     background-size: cover;
+    background-position: bottom;
+
+}
+
+.container h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+color: white;
+    line-height:100vh;
+}
+
+.bg{
+        background-blend-mode: overlay;
+}
