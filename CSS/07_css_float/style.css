@@ -1,0 +1,34 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.box1{
+    background-color: #efefd6;
+    float:left;
+}
+
+.box2{
+    background-color: #819762;
+    float:left
+}
+
+.container{
+    width: fit-content;
+    margin: auto;
+    border: 10px groove darkgreen;
+}
+
+.clear{
+    clear: both;
+}
