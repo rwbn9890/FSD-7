@@ -1,0 +1,16 @@
+.head1{
+ font-family: "Moirai One", system-ui;
+}
+.head2{
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: orange;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+.head3{
+ font-family: "Engagement", cursive;
+}
