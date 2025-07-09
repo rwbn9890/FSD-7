@@ -1,0 +1,45 @@
+.container{
+    border:1px solid red;
+    max-width:1000px;
+    margin: auto;
+}
+
+.d-flex{
+        display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    background-color: gray;
+}
+
+
+
+.d-flex1{
+        display: flex;
+         flex-direction: row;
+         flex-wrap: wrap-reverse;
+}
+
+.d-flex2{
+        display: flex;
+         flex-direction: row-reverse;
+         flex-wrap: wrap;
+}
+
+.d-flex3{
+        display: flex;
+         flex-direction: row-reverse;
+         flex-wrap: wrap-reverse;
+}
+
+.d-flex4{
+    height: 500px;
+        display: flex;
+         flex-direction:column;
+         flex-wrap: wrap;
+}
